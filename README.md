@@ -22,7 +22,7 @@
 - 'main.py'  - starts the program 
 - It runs 'runScheduler.py' from the 'scheduler' folder.
 - The scheduler uses 'scheduler.py' to run the 'webScraper' from 'scraper' folder every 5 minutes using 'schedule'
-- The scraper user 'requests', 'BeautifulSoup4' to fetch books data from https://books.toscrape.com
+- The scraper uses 'requests', 'BeautifulSoup4' to fetch books data from https://books.toscrape.com
 - Data is saved in 'output/' folder in .csv file and .xlsx file where each page is a worksheet
 
 ---
